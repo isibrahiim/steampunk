@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spirax&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      /*video section */
+      .video-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .video-container iframe {
+        flex: 1 1 calc(50% - 10px);
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Maisema</h1>
+    </div>
+
+    <div class="row">
+      <!-- This takes 25% of all spaces on big screens -->
+      <div class="col-3 col-s-3 menu">
+        <ul>
+          <li><a href="index.html">Landscape</a></li>
+          <li><a href="sivu1.html">River</a></li>
+          <li><a class="large-font" href="sivu2.html">Forest</a></li>
+          <li><a href="sivu3.html">City</a></li>
+        </ul>
+        <div class="aside">
+          <h2>Otsikko 1</h2>
+          <p>Browse landscape pictures from around the world</p>
+          <h2>Otsikko 2</h2>
+          <p>Browse landscape pictures from around the world</p>
+          <h2>Otsikko 3</h2>
+          <p>Browse landscape pictures from around the world</p>
+          <img
+            class="varjo"
+            src="./images/kuva1.jpg"
+            width="460"
+            height="345"
+            alt="a beautiful car"
+          />
+        </div>
+      </div>
+
+      <!-- This takes 75% of all spaces available on big screens -->
+      <div class="col-9 col-s-9">
+        <h1>Game of Thrones</h1>
+        <p>
+          Browse landscape pictures from around the world, including mountains,
+          seascapes, forests, deserts, and a lot more. This collection of
+          beautiful and breathtaking photos is free for personal and commercial
+          use.
+        </p>
+        <!-- Video section -->
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/TZE9gVF1QbA?si=kA25J_X450CJSvg9"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Tv1SoafVC-M?si=7GK-ghjqnfCutUWk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/RhT3F5y8PZ8?si=eq4eG7P_0qs6nGrg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/vojJtUZJ9BE?si=Wm6SLSnRrqSwb2AX"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        This collection of beautiful and breathtaking photos is free for
+        personal and commercial use.
+      </p>
+    </div>
+  </body>
+</html>
